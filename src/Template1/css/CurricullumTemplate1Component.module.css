@@ -1,0 +1,56 @@
+.curicullumColor{
+    letter-spacing: 0.1px;
+  font-size: large;
+    color: black;
+  }
+  .curicullumColor h4{
+    color: black;
+    line-height: 31px;
+  }
+  .curicullumul{
+    color: #7c7c7c;
+    padding: 0 0 0 28px;
+    list-style-type: circle;
+    margin: 16px 0;
+  }
+  .curicullumul li{
+    line-height: 25px;
+  
+  }
+
+  .banner {
+    height: 300px;
+    width: 100%;
+    position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .3;
+    background: #f1453d;
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.text h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #fff;
+    font-family: 'Poppins',Arial,sans-serif;
+}

@@ -1,0 +1,52 @@
+.bkseparator20 {
+    height: 20px;
+  }
+
+  .basic-short-line {
+    width: 120px;
+    background: #222;
+    height: 3px;
+    display: inline-block;
+  }
+
+  .faclityImg{
+    max-width: 100%;
+  }
+
+  .banner {
+    /* background-image: url(../../utilities/static/images/bg_1.jpg); */
+    height: 300px;
+    width: 100%;
+    position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .3;
+    background: #f1453d;
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.text h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #fff;
+    font-family: 'Poppins',Arial,sans-serif;
+}
